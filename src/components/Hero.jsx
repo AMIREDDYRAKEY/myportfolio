@@ -5,7 +5,7 @@ import { IoMdDownload } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <div>
+    <div className='bg-[#212428]' >
       <div className='md:flex md:flex-row md:justify-around flex flex-col  md:mt-[140px] mt-[130px] md:ml-0 ml-4'>
         {/* LEFT TEXT SECTION */}
         <motion.div

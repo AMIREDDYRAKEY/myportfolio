@@ -9,7 +9,7 @@ import Contact from './components/Contact'
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-[#212428]'>
       <Navbar />
 
       <div id="home"><Hero /></div>
