@@ -9,6 +9,7 @@ import reduxLogo from '../assets/red.png';
 import mdblogo from "../assets/MDB.png"
 import nodelogo from "../assets/Nod.png"
 import Exlogo from "../assets/Ex.png"
+import seo from '../assets/seo.png'
 const Skills = () => {
   const skills = [
     { name: "HTML", img: htmlLogo },
@@ -20,6 +21,7 @@ const Skills = () => {
     { name: "Mongo DB", img: mdblogo },
     { name: "Node Js", img: nodelogo },
     { name: "Express Js", img: Exlogo },
+     { name: "SEO", img: seo },
   ];
 
   // Parent animation (stagger for children)
