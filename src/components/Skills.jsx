@@ -23,8 +23,6 @@ const Skills = () => {
     { name: "Express Js", img: Exlogo },
      { name: "SEO", img: seo },
   ];
-
-  // Parent animation (stagger for children)
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -32,8 +30,6 @@ const Skills = () => {
       transition: { staggerChildren: 0.2 },
     },
   };
-
-  // Child animation for each skill card
   const item = {
     hidden: { opacity: 0, scale: 0.7 },
     show: { opacity: 1, scale: 1 },
