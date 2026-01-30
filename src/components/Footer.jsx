@@ -1,7 +1,13 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
-
+import SEO from "../SEO";
 const Footer = () => {
+  <SEO
+  title="Projects | Amireddy Portfolio"
+  description="My best React projects and frontend work."
+  canonical="https://myportfolio-eight-blue.vercel.app/projects"
+/>
+
   return (
     <footer className="bg-[#1a1a1a] border-t border-[#2a2a2a] text-gray-400 py-10 mt-16">
       <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-6">

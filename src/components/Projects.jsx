@@ -4,7 +4,7 @@ import eventImg from "../assets/event.png";
 import DewiImg from "../assets/dew.png";
 import Weath from "../assets/wea.png";
 import Redux from "../assets/redu.png";
-
+import SEO from "../SEO";
 const Projects = () => {
   const projects = [
     {

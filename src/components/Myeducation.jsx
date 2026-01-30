@@ -1,7 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import SEO from "../SEO";
 const Myeducation = () => {
+  <SEO
+  title="Projects | Amireddy Portfolio"
+  description="My best React projects and frontend work."
+  canonical="https://myportfolio-eight-blue.vercel.app/projects"
+/>
+
 
   // Parent animation for stagger
   const container = {

@@ -2,8 +2,14 @@ import React, { useState } from 'react'
 import img from '../assets/RAKEY.jpeg'
 import { FaBars } from "react-icons/fa6"
 import { IoCloseSharp } from "react-icons/io5"
-
+import SEO from '../SEO'
 const Navbar = () => {
+  <SEO
+  title="Projects | Amireddy Portfolio"
+  description="My best React projects and frontend work."
+  canonical="https://myportfolio-eight-blue.vercel.app/projects"
+/>
+
   const [open, setopen] = useState(false)
 
   const handleScroll = (id) => {

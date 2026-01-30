@@ -4,10 +4,16 @@ import Myeducation from './Myeducation';
 import Worke from './Work';
 import Certifications from './Certifications';
 import Strengths from './Strengths';
+import SEO from '../SEO';
 
 const Aboutme = () => {
-  const [Activetab, setActivetab] = useState("education");
+  <SEO
+  title="Projects | Amireddy Portfolio"
+  description="My best React projects and frontend work."
+  canonical="https://myportfolio-eight-blue.vercel.app/projects"
+/>
 
+  const [Activetab, setActivetab] = useState("education");
   return (
     <motion.div
       initial={{ opacity: 0 }}

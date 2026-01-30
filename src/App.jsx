@@ -7,8 +7,14 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import useSectionTracking from "./components/Hooks/useSectionTracking";
-
+import SEO from "./SEO";
 const App = () => {
+  <SEO
+  title="Projects | Amireddy Portfolio"
+  description="My best React projects and frontend work."
+  canonical="https://myportfolio-eight-blue.vercel.app/projects"
+/>
+
   useSectionTracking([
     "home",
     "about",

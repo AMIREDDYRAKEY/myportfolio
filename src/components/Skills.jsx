@@ -10,6 +10,7 @@ import mdblogo from "../assets/MDB.png"
 import nodelogo from "../assets/Nod.png"
 import Exlogo from "../assets/Ex.png"
 import seo from '../assets/seo.png'
+import SEO from '../SEO';
 const Skills = () => {
   const skills = [
     { name: "HTML", img: htmlLogo },

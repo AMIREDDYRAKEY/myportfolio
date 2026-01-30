@@ -1,8 +1,15 @@
 import React from "react";
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 import { BiLogoInstagramAlt } from "react-icons/bi";
-
+import SEO from "../SEO";
 const Contact = () => {
+
+  <SEO
+  title="Projects | Amireddy Portfolio"
+  description="My best React projects and frontend work."
+  canonical="https://myportfolio-eight-blue.vercel.app/projects"
+/>
+
   return (
     <div id="contact" className="mt-[90px] px-6 sm:px-10 md:px-20 text-white">
       {/* Title */}

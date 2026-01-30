@@ -1,6 +1,12 @@
 import React from 'react';
-
+import SEO from '../SEO';
 const Strengths = () => {
+  <SEO
+  title="Projects | Amireddy Portfolio"
+  description="My best React projects and frontend work."
+  canonical="https://myportfolio-eight-blue.vercel.app/projects"
+/>
+
   return (
     <div className="max-w-3xl mx-auto p-6 text-white">
       <h2 className="text-3xl font-bold mb-6">My Strengths</h2>

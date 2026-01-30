@@ -2,8 +2,14 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import img from '../assets/RAKEY.jpeg';
 import { IoMdDownload } from "react-icons/io";
-
+import SEO from '../SEO';
 const Hero = () => {
+  <SEO
+  title="Projects | Amireddy Portfolio"
+  description="My best React projects and frontend work."
+  canonical="https://myportfolio-eight-blue.vercel.app/projects"
+/>
+
   return (
     <div className='bg-[#212428]' >
       <div className='md:flex md:flex-row md:justify-around flex flex-col  md:mt-[140px] mt-[130px] md:ml-0 ml-4'>

@@ -1,6 +1,12 @@
 import React from 'react'
-
+import SEO from '../SEO'
 const Work = () => {
+  <SEO
+  title="Projects | Amireddy Portfolio"
+  description="My best React projects and frontend work."
+  canonical="https://myportfolio-eight-blue.vercel.app/projects"
+/>
+
   return (
     <div className="flex justify-center items-center mt-8 px-4">
       <div className="border border-[#858d98] w-full sm:w-[90%] md:w-[80%] rounded-2xl p-4 sm:p-6 text-white">

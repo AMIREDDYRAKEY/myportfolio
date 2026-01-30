@@ -2,8 +2,15 @@ import React from 'react'
 import C1 from "../assets/C1.jpg"
 import C2 from "../assets/C2.jpg"
 import C3 from "../assets/C3.jpg"
+import SEO from '../SEO'
 
 const Certifications = () => {
+  <SEO
+  title="Projects | Amireddy Portfolio"
+  description="My best React projects and frontend work."
+  canonical="https://myportfolio-eight-blue.vercel.app/projects"
+/>
+
   const projects = [
     {
       title: "Practice Website Dewi",
