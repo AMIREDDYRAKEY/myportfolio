@@ -4,7 +4,7 @@ const Strengths = () => {
   <SEO
   title="Projects | Amireddy Portfolio"
   description="My best React projects and frontend work."
-  canonical="https://myportfolio-eight-blue.vercel.app/projects"
+  canonical="https://myportfolio-eight-blue.vercel.app"
 />
 
   return (
