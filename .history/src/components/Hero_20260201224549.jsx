@@ -53,7 +53,7 @@ const Hero = () => {
           >
             <div className='border-[1.5px] border-[#858d98] h-[60px] lg:w-[170px] w-[280px] flex items-center justify-center bg-[#ff014f] rounded-md gap-2 cursor-pointer hover:bg-[#212428]'>
               <a
-                href="/Rakesh Reddy Resume.pdf"
+                href="/Rakesh resume.pdf"
                 download="Rakesh Reddy Resume.pdf"
                 className="flex items-center gap-2 text-white font-semibold text-[17px]"
               >
