@@ -65,7 +65,7 @@ const Projects = () => {
   description:
     "A machine learning-based project designed to detect fraudulent bank transactions. It analyzes transaction patterns to identify suspicious activities and improve financial security.",
   image: Fraud,
-  techStack: ["Python", "ML Models", "Fastapi","React"],
+  techStack: ["Python", "Machine Learning models", "Fastapi","React"],
   link: "https://bank-fraud-detection-ese2.vercel.app/",
 },
  
@@ -89,7 +89,7 @@ const Projects = () => {
       </motion.div>
 
       {/* Projects Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center gap-8 mt-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center gap-8 mt-12">
         {projects.map((project, i) => (
           <motion.div
             key={i}

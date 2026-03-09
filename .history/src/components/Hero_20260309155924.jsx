@@ -40,7 +40,7 @@ const Hero = () => {
             className="max-w-[500px] text-[#858d98] font-semibold"
           >
             <p className="text-base leading-relaxed">
-              "I'm an aspiring <span className="text-blue-400 font-semibold">FullStack Developer</span> with a strong foundation in web technologies and a passion for crafting responsive, user-friendly interfaces. Dedicated to turning ideas into interactive experiences, I continuously explore modern frameworks and design principles to build seamless digital solutions."
+              "I'm an aspiring <span className="text-blue-400 font-semibold text-[30px]">FullStack Developer</span> with a strong foundation in web technologies and a passion for crafting responsive, user-friendly interfaces. Dedicated to turning ideas into interactive experiences, I continuously explore modern frameworks and design principles to build seamless digital solutions."
             </p>
           </motion.div>
 
@@ -53,8 +53,8 @@ const Hero = () => {
           >
             <div className='border-[1.5px] border-[#858d98] h-[60px] lg:w-[170px] w-[280px] flex items-center justify-center bg-[#ff014f] rounded-md gap-2 cursor-pointer hover:bg-[#212428]'>
               <a
-                href="/Rakesh esume.pdf"
-                download="Rakesh Reddy Resume.pdf"
+                href="/Rakesh-resume.pdf"
+                download="Rakesh-resume.pdf"
                 className="flex items-center gap-2 text-white font-semibold text-[17px]"
               >
                 <span>Download CV</span>

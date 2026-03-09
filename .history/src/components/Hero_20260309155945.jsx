@@ -20,7 +20,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className='flex md:gap-5 gap-3 flex-col md:mt-[40px] text-5xl'
         >
-          <h1 className='text-white md:text-[50px] text-3xl font-semibold'>
+          <h1 className='text-white md:text-[0px] text-3xl font-semibold'>
             Hi, I'm <span className='text-[#ff014f]'> Rakesh Reddy!</span>
           </h1>
 
@@ -28,7 +28,7 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className='text-white md:text-[40px] font-bold'
+            className='text-white md:text-[60px] font-bold'
           >
             FullStack Developer
           </motion.div>
@@ -40,7 +40,7 @@ const Hero = () => {
             className="max-w-[500px] text-[#858d98] font-semibold"
           >
             <p className="text-base leading-relaxed">
-              "I'm an aspiring <span className="text-blue-400 font-semibold">FullStack Developer</span> with a strong foundation in web technologies and a passion for crafting responsive, user-friendly interfaces. Dedicated to turning ideas into interactive experiences, I continuously explore modern frameworks and design principles to build seamless digital solutions."
+              "I'm an aspiring <span className="text-blue-400 font-semibold text-[30px]">FullStack Developer</span> with a strong foundation in web technologies and a passion for crafting responsive, user-friendly interfaces. Dedicated to turning ideas into interactive experiences, I continuously explore modern frameworks and design principles to build seamless digital solutions."
             </p>
           </motion.div>
 

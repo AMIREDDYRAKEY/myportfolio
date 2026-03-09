@@ -4,9 +4,7 @@ import eventImg from "../assets/event.png";
 import DewiImg from "../assets/dew.png";
 import Weath from "../assets/wea.png";
 import Redux from "../assets/redu.png";
-import Ecommerce from '../assets/Ecommerce.png'
-import CSE from '../assets/CSE.png'
-import Fraud from '../assets/Fraud.png'
+import Ecommer
 import SEO from "../SEO";
 const Projects = () => {
   const projects = [
@@ -47,7 +45,7 @@ const Projects = () => {
   description:
     "A full-featured e-commerce web application built with modern frontend technologies. It includes product listings, cart functionality, and responsive UI for a smooth shopping experience.",
   image:Ecommerce,
-  techStack:["React", "MongoDb","Express","Node.js"],
+  techStack:["React", "MongoDb", "TailwindCss","Express","Node.js"],
   link: "https://e-commerce-ten-psi-78.vercel.app/",
 },
 
@@ -56,7 +54,7 @@ const Projects = () => {
   description:
     "A website developed for the CSE Rockers community to showcase events, updates, and student activities with a clean and responsive interface.",
   image: CSE,
-  techStack: ["React", "MongoDb","Express","Node.js"],
+  techStack: ["React", "MongoDb", "TailwindCss","Express","Node.js"],
   link: "https://cse-rockers.vercel.app/",
 },
 
@@ -65,7 +63,7 @@ const Projects = () => {
   description:
     "A machine learning-based project designed to detect fraudulent bank transactions. It analyzes transaction patterns to identify suspicious activities and improve financial security.",
   image: Fraud,
-  techStack: ["Python", "ML Models", "Fastapi","React"],
+  techStack: ["Python", "Machine Learning models", "Fastapi","React"],
   link: "https://bank-fraud-detection-ese2.vercel.app/",
 },
  
@@ -89,7 +87,7 @@ const Projects = () => {
       </motion.div>
 
       {/* Projects Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center gap-8 mt-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center gap-8 mt-12">
         {projects.map((project, i) => (
           <motion.div
             key={i}

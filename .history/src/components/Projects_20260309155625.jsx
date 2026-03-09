@@ -89,7 +89,7 @@ const Projects = () => {
       </motion.div>
 
       {/* Projects Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center gap-8 mt-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-center gap-8 mt-12">
         {projects.map((project, i) => (
           <motion.div
             key={i}
@@ -98,7 +98,7 @@ const Projects = () => {
             transition={{ duration: 0.6, delay: i * 0.15 }}
             viewport={{ once: true }}
             className="bg-[#1a1a1a] border border-[#2a2a2a] rounded-2xl shadow-lg overflow-hidden transform transition-all hover:scale-[1.03] hover:border-[#ff014f] 
-                      lg:w-[370px] w-[290px] h-[430px] lg:h-[420px] flex flex-col justify-between ml-[-10px] lg:ml-0"
+                      lg:w-[390px] w-[290px] h-[430px] lg:h-[420px] flex flex-col justify-between ml-[-10px] lg:ml-0"
           >
             <motion.img
               initial={{ opacity: 0, y: 20 }}
