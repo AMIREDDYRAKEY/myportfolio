@@ -26,24 +26,6 @@ const Projects = () => {
       techStack: ["React", "Node.js", "Express", "MongoDB"],
       link: "https://college-events-jade.vercel.app",
     },
-    
-{
-  title: "CSE Rockers Community Website",
-  description:
-    "A website developed for the CSE Rockers community to showcase events, updates, and student activities with a clean and responsive interface.",
-  image: CSE,
-  techStack: ["React", "MongoDb","Express","Node.js"],
-  link: "https://cse-rockers.vercel.app/",
-},
-
-{
-  title: "Bank Fraud Detection System",
-  description:
-    "A machine learning-based project designed to detect fraudulent bank transactions. It analyzes transaction patterns to identify suspicious activities and improve financial security.",
-  image: Fraud,
-  techStack: ["Python", "ML Models", "Fastapi","React"],
-  link: "https://bank-fraud-detection-ese2.vercel.app/",
-},
     {
       title: "Practice Website Dewi",
       description:
@@ -71,6 +53,23 @@ const Projects = () => {
     },
  
 
+{
+  title: "CSE Rockers Community Website",
+  description:
+    "A website developed for the CSE Rockers community to showcase events, updates, and student activities with a clean and responsive interface.",
+  image: CSE,
+  techStack: ["React", "MongoDb","Express","Node.js"],
+  link: "https://cse-rockers.vercel.app/",
+},
+
+{
+  title: "Bank Fraud Detection System",
+  description:
+    "A machine learning-based project designed to detect fraudulent bank transactions. It analyzes transaction patterns to identify suspicious activities and improve financial security.",
+  image: Fraud,
+  techStack: ["Python", "ML Models", "Fastapi","React"],
+  link: "https://bank-fraud-detection-ese2.vercel.app/",
+},
  
   ];
 
