@@ -40,7 +40,7 @@ const Hero = () => {
             className="max-w-[500px] text-[#858d98] font-semibold"
           >
             <p className="text-base leading-relaxed">
-              "I'm an aspiring <span className="text-blue-400 font-semibold">FullStack Developer</span> with a strong foundation in web technologies and a passion for crafting responsive, user-friendly interfaces. Dedicated to turning ideas into interactive experiences, I continuously explore modern frameworks and design principles to build seamless digital solutions."
+              "I'm an aspiring <span className="text-blue-400 font-semibold t">FullStack Developer</span> with a strong foundation in web technologies and a passion for crafting responsive, user-friendly interfaces. Dedicated to turning ideas into interactive experiences, I continuously explore modern frameworks and design principles to build seamless digital solutions."
             </p>
           </motion.div>
 
