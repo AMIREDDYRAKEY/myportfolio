@@ -1,55 +1,85 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
-import SEO from "../SEO";
+import { FaGithub, FaLinkedin, FaInstagram, FaArrowUp, FaHeart } from "react-icons/fa";
+import img from "../assets/rakesh_profile.jpg";
+
 const Footer = () => {
-  <SEO
-  title="Projects | Amireddy Portfolio"
-  description="My best React projects and frontend work."
-  canonical="https://myportfolio-eight-blue.vercel.app"
-/>
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
-    <footer className="bg-[#1a1a1a] border-t border-[#2a2a2a] text-gray-400 py-10 mt-16">
-      <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-6">
-        {/* Left Section */}
-        <div className="text-center sm:text-left">
-          <h2 className="text-white text-xl font-semibold">Rakey Rakesh</h2>
-          <p className="text-sm mt-1">Front-End Developer | React Enthusiast</p>
+    <footer className="relative bg-[#0b0e17] border-t border-white/10 text-slate-400 pt-8 pb-8 overflow-hidden">
+      {/* Top subtle glow */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-[1px] bg-gradient-to-r from-transparent via-[#ff014f]/50 to-transparent" />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-6">
+        
+        <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          {/* Brand Info */}
+          <div className="flex items-center gap-4 text-center md:text-left">
+            <img
+              src={img}
+              alt="Rakesh Reddy Amireddy"
+              className="w-11 h-11 rounded-full object-cover object-center ring-2 ring-[#ff014f]/50 shadow-md"
+            />
+            <div>
+              <h3 className="text-white text-base font-bold">Rakesh Reddy Amireddy</h3>
+              <p className="text-xs text-slate-400">
+                Full Stack & Mobile App Developer
+              </p>
+            </div>
+          </div>
+
+
+          {/* Socials & Back to Top */}
+          <div className="flex items-center gap-3">
+            <a
+              href="https://github.com/AMIREDDYRAKEY"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white border border-white/10 transition-colors"
+              aria-label="GitHub Profile"
+            >
+              <FaGithub size={16} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/amireddy-rakesh-reddy-13540b279"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-[#0077b5] border border-white/10 transition-colors"
+              aria-label="LinkedIn Profile"
+            >
+              <FaLinkedin size={16} />
+            </a>
+            <a
+              href="https://www.instagram.com/amireddy__rakey_/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-300 hover:text-[#e1306c] border border-white/10 transition-colors"
+              aria-label="Instagram Profile"
+            >
+              <FaInstagram size={16} />
+            </a>
+
+            <button
+              onClick={scrollToTop}
+              className="p-2.5 rounded-xl bg-[#ff014f]/15 hover:bg-[#ff014f] text-[#ff014f] hover:text-white border border-[#ff014f]/30 transition-all cursor-pointer ml-2"
+              title="Back to Top"
+              aria-label="Back to Top"
+            >
+              <FaArrowUp size={14} />
+            </button>
+          </div>
         </div>
 
-        {/* Social Icons */}
-        <div className="flex gap-5 text-xl">
-          <a
-            href="https://github.com/AMIREDDYRAKEY/MYPortfolio.git"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-[#ff014f] transition"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/amireddy-rakesh-reddy-13540b279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-[#ff014f] transition"
-          >
-            <FaLinkedin />
-          </a>
-           
-          <a
-            href="https://www.instagram.com/amireddy__rakey_/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-[#ff014f] transition"
-          >
-            <FaInstagram />
-          </a>
+        {/* Bottom separator and copyright */}
+        <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+          <p>© {new Date().getFullYear()} Amireddy Rakesh Reddy. Crafted with React, Tailwind CSS & Framer Motion.</p>
+          <p className="flex items-center gap-1">
+            Built for High-Impact Recruiter Discovery
+          </p>
         </div>
-      </div>
 
-      {/* Bottom Text */}
-      <div className="text-center text-sm text-gray-500 mt-6 border-t border-[#2a2a2a] pt-4">
-        © {new Date().getFullYear()} Rakey Rakesh. All Rights Reserved.
       </div>
     </footer>
   );

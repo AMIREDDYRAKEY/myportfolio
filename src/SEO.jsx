@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export default function SEO({ title, description, canonical }) {
+export function useSEO({ title, description, canonical } = {}) {
   useEffect(() => {
     if (title) document.title = title;
 
@@ -24,6 +24,9 @@ export default function SEO({ title, description, canonical }) {
       link.setAttribute("href", canonical);
     }
   }, [title, description, canonical]);
+}
 
+export default function SEO(props) {
+  useSEO(props);
   return null;
 }
